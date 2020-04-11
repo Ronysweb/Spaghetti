@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Spaghetti and Meatballs</title>
+<link rel="shortcut icon" type="image/ico" href="images/favicon.ico">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: lato;
+  margin: 0;
+    background-color: beige;
+}
+
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #639a67;
+  color: white;
+}
+
+
+.navbar {
+  display: flex;
+  background-color: #333;
+}
+
+    hr
+{
+
+  border-style: none;
+  border-top-style: dotted;
+  border-color: white;
+  border-width: 5px;
+  width: 5%;
+}
+
+
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.side {
+  flex: 30%;
+  background-color: #d8ebb5;
+  padding: 20px;
+}
+
+    h2
+    {
+        text-align: center;
+    }
+
+/* Main column */
+.main {
+  flex: 70%;
+  background-color: beige;
+  padding: 20px;
+}
+
+/* Image styling*/
+img
+            {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+            }
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #639a67;
+}
+
+    .justify
+    {
+        text-align: center;
+    }
+
+
+@media screen and (max-width: 750px)
+  .row, .navbar {
+    flex-direction: column;
+  }
+}
+
+
+</style>
+</head>
+<body>
+
+
+    <a name="Home"></a>
+<div class="navbar">
+    <a href="#Home">Home</a>
+    <a href="#Ingredients">Ingredients</a>
+    <a href="#Directions to make the dish.">Directions to make the dish</a>
+</div>
+
+     <img src="images/spaghettinmain1.png" width="150" height="350"  alt="Spaghetti with meatballs">
+<!-- Header -->
+<div class="header">
+  <h1>SPAGHETTI AND MEATBALLS</h1>
+
+</div>
+
+
+
+
+     <section id="Ingredients" class="card">
+<div class="row">
+  <div class="side">
+
+    <div class="content">
+        <h2 class="justify">Ingredients</h2>
+        <ul type=circle>                    <!-- Used unordered list for the ingriedients to make the dish -->
+            <li>1 lb. spaghetti</li>
+            <li>1 lb. ground beef</li>
+            <li>1/3 c. bread crumbs</li>
+            <li>1/4 c. finely chopped parsley</li>
+            <li>1/4 c. freshly grated Parmesan, plus more for serving</li>
+            <li>1 egg</li>
+            <li>2 garlic cloves, minced</li>
+            <li>Kosher salt</li>
+            <li>1/2 tsp. red pepper flakes</li>
+            <li>2 tbsp. extra-virgin olive oil</li>
+            <li>1/2 c. onion, finely chopped</li>
+            <li>1 (28-oz.) can crushed tomatoes</li>
+            <li>1 bay leaf</li>
+            <li>Freshly ground black pepper</li>
+        </ul>
+    </div>
+
+      <hr>
+      <p align>Click on the images for more recepies.  </p>
+       <a target="_blank" href="https://www.bbc.co.uk/food/recipes/spaghetti_and_meatballs_69603"><img src="images/spaguetti.jpg" width="180px" height="160px" alt="Spaghetti with meatballs"></a><br>
+      <a target="_blank" href="https://www.allrecipes.com/recipe/21353/italian-spaghetti-sauce-with-meatballs/"><img src="images/salted-pasta-725990.jpg" width="180px" height="160px" alt="Spaghetti with meatballs"></a>
+      <hr>
+
+              <section id="More Excellent Recipies.">
+        <h3 style="text-align:center">More Excellent Recipies.</h3>
+        <ol type="i">
+            <li><a target="_blank" href="https://www.delish.com/cooking/recipe-ideas/recipes/a55764/best-spaghetti-and-meatballs-recipe/">Spaghetti and Meatballs Recipe By Lena Abraham</a></li><br>
+            <li><a target="_blank" href="https://natashaskitchen.com/spaghetti-and-meatballs-recipe/">Spaghetti and Meatballs Recipe By Natasha Kravchuk</a></li><br>
+            <li><a target="_blank" href="http://www.google.com">Spaghetti and Meatballs Recipe By Rachael Ray</a></li><br>
+            <li><a target="_blank" href="https://www.kosher.com/recipe/spaghetti-and-meatballs-6151">Spaghetti and Meatballs Recipe By Danielle Renov</a></li><br>
+            <li><a target="_blank" href="https://www.jocooks.com/recipes/classic-spaghetti-and-meatballs/">Spaghetti and Meatballs Recipe By Joanna</a></li>
+        </ol>
+                  <a href="#Home">Home</a>
+                </section>
+
+
+  </div>
+  <div class="main">
+    <h2 id="Directions to make the dish.">Directions to make the dish.</h2>
+     <ol type="I" start="1"> <!-- Used ordered list for the directions to make the dish -->
+            <li>In a large pot of boiling salted water, cook spaghetti according to package instructions. Drain.&#127837; </li><br>
+            <li>In a large bowl, combine beef with bread crumbs, parsley, Parmesan, egg, garlic, 1 teaspoon salt, and red pepper flakes. Mix until just combined then form into 16 balls.&#127837;</li><br>
+            <li>In a large pot over medium heat, heat oil. Add meatballs and cook, turning occasionally, until browned on all sides, about 10 minutes. Transfer meatballs to a plate.&#127837;</li> <br>
+            <li>Add onion to pot and cook until soft, 5 minutes. Add crushed tomatoes and bay leaf. Season with salt and pepper and bring to a simmer. Return meatballs to pot and cover. Simmer until sauce has thickened, 8 to 10 minutes.&#127837;</li><br>
+            <li>Serve pasta with a healthy scoop of meatballs and sauce. Top with Parmesan before serving.&#127837;</li> <br>
+        </ol>
+
+    <br>
+    <h2>Video that might help you.</h2>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/YyCRnAZ4eCc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <!--<iframe>: The Inline Frame element-->
+
+  </div>
+</div>
+    </section>
+
+<!-- Footer -->
+<div class="footer">
+  <h2>Page Created by Ronald Guidry</h2>
+</div>
+
+
+</body>
+</html>
